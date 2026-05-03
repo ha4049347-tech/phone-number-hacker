@@ -6,7 +6,7 @@ number = input("Enter your phone number and make sure to start with +: ")
 try:
     parsed_number = phonenumbers.parse(number)
 
-    # This gets the short code like 'MA'
+    # This gets the short code like 'US'
     location_code = phonenumbers.region_code_for_number(parsed_number)
     print("Location:", location_code)
 
