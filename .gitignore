@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+snake game.py
+number game.html
+calculator.py
+new.py
